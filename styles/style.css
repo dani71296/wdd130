@@ -6,7 +6,7 @@ nav{
 h1 {
     color: darkblue;
 }
-image {
+main image {
     width:150px;
     height:auto;
     border:1px solid black;
@@ -14,5 +14,26 @@ image {
     box-shadow:0 0 30px gray;
 }
 p{
-    padding: 10px;
+    padding: 0;
+}
+main{
+    max-width: 840px;
+}
+aside{
+    width:20 rem ;
+    margin: 1 rem;
+    border: 1px solid rgb(000/0.2); 
+    padding: 1rem ;
+    background-color:#eee ;
+    color: #333;
+    text-align: center;
+}
+aside image{
+        width: 200px;
+        height: auto;
+}
+footer{
+    margin-top: 10px;
+    border-top: 1px solid #000;
+    text-align: center;
 }
