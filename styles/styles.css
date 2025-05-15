@@ -1,5 +1,8 @@
+:root{
+    --dark-blue-color:rgb(0,0,139);
+}
 nav {
-    background-color: darkblue;
+    background-color: var(--dark-blue-color);
     padding: 10px;
     display: flex;
     justify-content: center;
@@ -12,7 +15,7 @@ nav a {
     padding: 8px 12px;
 }
 h1 {
-    color: darkblue;
+    color:  var(--dark-blue-color);
 }
 /* cada palabra detras de la llave corresponde auna parte del html*/
 main img {
