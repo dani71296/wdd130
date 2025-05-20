@@ -52,4 +52,27 @@ nav, p, section, article{
 }
 h1{
     position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.5;
+    background-color: var(--accent1-color);
+    color: #fff;
+    letter-spacing: normal;
+}
+.hero article{
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* fondo semi-transparente */
+    color: white;
+    padding: 16px;
+    border-radius: 8px;
+    max-width: 300px;
+}
+article img{
+    float: right;
+    width: 125px;
+    margin: 0 0 1rem 1rem;
 }
