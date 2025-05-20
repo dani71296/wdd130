@@ -1,0 +1,40 @@
+:root{ /*en esta parte root se define variablesy lo que esta dentro de los dobles guiones son nombres q pones*/
+    --primary-color:#2D7DD2;
+    --secondary-color:#DAFFED;
+    --accent1-color:#374B4A;
+    --accent2-color:#FC9E4F;
+    --heading-font:"Bebas Neue", sans-serif;
+    --body-font:"Roboto", sans-serif;
+}
+header{
+    background-color:var(--primary-color);/*aca estoy usando las variables con var*/
+    color:var(--accent2-color)
+}
+*{/*declaraciones para resetear las propiedades de la css-box a 0 */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--body-font);
+    color:var(--accent1-color);
+}
+header, main, footer{/*aca estoy limitando el ancho de la pagina combinando el header main y footer */
+    width: 840px;
+    margin:0 auto; /* 0 = sin espacio arriba y abajo
+   auto = centra el elemento en el medio horizontal solo se usa cuando tiene un width definido*/
+}
+h1, h2{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+nav, p, section, article{
+    margin: 16px;/* Espacio externo (fuera del borde) */
+    /* Es el espacio entre el borde del elemento y otros elementos cercanos */
+    padding: 8px; /* Espacio interno (dentro del borde) */
+    /* Agrega espacio interno entre el contenido y los bordes */
+}
+.socialmedia a {
+    text-decoration: none;/* Quita el subrayado de los enlaces */
+
+}
