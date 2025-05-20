@@ -7,7 +7,7 @@
     --body-font:"Roboto", sans-serif;
 }
 header{
-    background-color:var(--primary-color);/*aca estoy usando las variables con var*/
+    /*background-color:var(--primary-color);/*aca estoy usando las variables con var*/
     color:var(--accent2-color)
 }
 *{/*declaraciones para resetear las propiedades de la css-box a 0 */
@@ -63,16 +63,14 @@ h1{
 }
 .hero article{
     position: absolute;
-    bottom: 40px;
-    left: 20px;
+    top: 100px;
+    left: 50px;
     background-color: rgba(0, 0, 0, 0.5); /* fondo semi-transparente */
     color: white;
     padding: 16px;
     border-radius: 8px;
-    max-width: 300px;
 }
-article img{
+.hero article img{
     float: right;
     width: 125px;
-    margin: 0 0 1rem 1rem;
 }
