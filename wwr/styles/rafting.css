@@ -38,3 +38,18 @@ nav, p, section, article{
     text-decoration: none;/* Quita el subrayado de los enlaces */
 
 }
+.hero{
+    position: relative;/* Permite posicionar elementos hijos de forma absoluta dentro de este contenedor */
+}
+.hero h1,
+.hero article{
+    position: absolute; /* Se posicionan sobre la imagen del fondo */
+}
+.hero img {
+  width: 100%;       /* La imagen llena todo el ancho del contenedor */
+  display: block;    /* Elimina espacios en blanco debajo de la imagen */
+  height: auto;
+}
+h1{
+    position: absolute;
+}
