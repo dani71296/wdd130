@@ -290,7 +290,7 @@ table td {
 }
 
 .comment-form input,
-.comment-form select,
+/* .comment-form select, */
 .comment-form textarea,
 .comment-form button {
   padding: 10px;

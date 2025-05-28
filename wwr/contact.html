@@ -75,20 +75,34 @@
                 <input type="text" id="name" name="name" placeholder="Name" required>
     <!-- Campo apellido -->
                 <label for="name">Last name:</label>
-                <input type="text" id="name" name="name" placeholder="Name" required>
+                <input type="text" id="lastname" name="lastname" placeholder="Lastame" required>
 
         <!-- Campo Email -->
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" placeholder="example@email.com" required>
 
         <!-- Desplegable con opciones -->
-                <label for="purpose">Reason:</label>
+                <!-- <label for="purpose">Reason:</label>
                 <select id="purpose" name="purpose" required>
                     <option value="" disabled selected>Choose one option</option>
                     <option value="general">General Inquiry</option>
                     <option value="reservation">Reservation Question</option>
                     <option value="suggestion">Website Suggestion</option>
-                </select>
+                </select> -->
+                <!-- usando type radio -->
+                <p>Reason:</p>
+                <label>
+                    <input type="radio" name="purpose" value="general" required>
+                    General Inquiry
+                </label><br>
+                <label>
+                    <input type="radio" name="purpose" value="reservation">
+                    Reservation Question
+                </label><br>
+                <label>
+                    <input type="radio" name="purpose" value="suggestion">
+                    Website Suggestion
+                </label>
 
         <!-- Campo de Mensaje -->
                 <label for="message">Mensage:</label>
