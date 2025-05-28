@@ -163,3 +163,137 @@ footer{
 footer img{
     width: 20px;
 }
+.empleados{
+    background-color: var(--accent2-color);
+    padding: 30px;
+}
+.foto1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    color: black;
+    padding-bottom: 30px;
+}
+.foto1 img{
+    border-radius: 20px;
+    width: 400px;
+    height: 200px;
+    overflow: hidden;
+}
+.foto1 img:hover {
+    transform: scale(1.1); /* agrandar un 10% */
+    cursor: pointer; /* opcional: cambia el cursor para indicar que es interactiva */
+}
+.foto1 p {
+    border: 1px solid rgb(218, 107, 17);
+    border-radius: 6px;
+}
+.foto1 p:hover {
+    transform: scale(1.1);
+}
+.foto2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    color: black;
+    padding-bottom: 30px;
+}
+.foto2 img{
+    border-radius: 20px;
+    height: 200px;
+}
+.foto2 img:hover {
+    transform: scale(1.1); /* agrandar un 10% */
+    cursor: pointer; /* opcional: cambia el cursor para indicar que es interactiva */
+}
+.foto2 p {
+    border: 1px solid rgb(218, 107, 17);
+    border-radius: 6px;
+}
+.foto2 p:hover {
+    transform: scale(1.1);
+}
+.capitan{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    color: black;
+    padding-bottom: 30px;
+}
+.capitan img{
+    border-radius: 20px;
+    width: 650px;
+    height: 200px;
+    overflow: hidden;
+}
+.capitan img:hover {
+    transform: scale(1.1); /* agrandar un 10% */
+    cursor: pointer; /* opcional: cambia el cursor para indicar que es interactiva */
+}
+.capitan p {
+    border: 1px solid rgb(218, 107, 17);
+    border-radius: 6px;
+}
+.capitan p:hover {
+    transform: scale(1.1);
+}
+.informacion{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: var(--secondary-color);
+}
+table td {
+    padding: 12px 16px; /* 12px vertical, 16px horizontal */
+}
+.comment-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.comment-form h2 {
+  margin-bottom: 20px;
+}
+
+.comment-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; 
+  width: 100%;
+  max-width: 500px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.comment-form label {
+  font-weight: bold;
+}
+
+.comment-form input,
+.comment-form select,
+.comment-form textarea,
+.comment-form button {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.comment-form button {
+  background-color: #0099cc;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.comment-form button:hover {
+  background-color: #0077aa;
+}
