@@ -163,6 +163,19 @@ footer{
 footer img{
     width: 20px;
 }
+h1.primero {
+    position: static; /*para eliminar el posicionamiento absoluto */
+    width: auto;
+    padding: 0;
+    margin: 32px auto 16px; /* espacio arriba y abajo, centrado */
+    text-align: center;
+    opacity: 1;
+    background-color: transparent;
+    color: var(--primary-color);
+    letter-spacing: normal;
+    font-size: 2.5rem;
+}
+
 .empleados{
     background-color: var(--accent2-color);
     padding: 30px;
