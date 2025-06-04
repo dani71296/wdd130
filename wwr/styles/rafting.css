@@ -461,10 +461,10 @@ table td {
 }
 
 .trips-page .cta .cta-button:hover {
-    background-color: #6ea0f7; /* un tono más oscuro si quieres */
+    background-color: #6ea0f7; 
 }
 .trips-page .cta h2 {
-    color: #ffffff; /* blanco, para máximo contraste */
+    color: #ffffff; 
     font-weight: bold;
 }
 
@@ -474,7 +474,7 @@ table td {
     position: relative;
     width: 840px;
     margin: 60px auto;
-    padding-bottom: 600px; /* Aumentado para que no solape con la tabla */
+    padding-bottom: 600px; 
 }
 
 .trip-descriptions .trip {
