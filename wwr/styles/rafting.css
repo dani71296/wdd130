@@ -310,3 +310,143 @@ table td {
 .comment-form button:hover {
   background-color: #0077aa;
 }
+
+/* desde aca es el index*/
+.home-hero {
+    position: relative;
+    width: 840px;
+    margin: 0 auto;
+}
+
+.home-hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.home-hero .hero-text {
+    position: absolute;
+    left: 5%;
+    color: white;
+    font-size: 2rem;
+    font-family: var(--heading-font);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    max-width: 90%;
+    box-sizing: border-box;
+}
+.newsletter {
+    width: 840px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.newsletter h2 {
+    margin-bottom: 20px;
+    color: var(--primary-color);
+    font-family: var(--heading-font);
+    font-size: 1.8rem;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.newsletter input {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid var(--accent1-color);
+    border-radius: 5px;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter button:hover {
+    background-color: var(--accent2-color);
+}
+
+.cta {
+    width: 840px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.cta .text-cta {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1rem;
+    background-color: var(--accent2-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ffb86b;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    width: 840px;
+    margin: 40px auto;
+    padding: 0 10px;
+}
+
+.info-grid div {
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-grid img {
+    max-width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.info-grid p {
+    font-size: 18px;
+    color: black;
+    font-weight: 700;
+}
+
+
