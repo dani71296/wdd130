@@ -448,5 +448,111 @@ table td {
     color: black;
     font-weight: 700;
 }
+/*aca empieza la pagina de trips*/
+.trips-page .cta {
+    background-color: var(--accent1-color);
+    color: white;
+    box-shadow: 0 4px 12px rgba(231, 106, 106, 0.1);
+}
 
+.trips-page .cta .cta-button {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.trips-page .cta .cta-button:hover {
+    background-color: #6ea0f7; /* un tono más oscuro si quieres */
+}
+.trips-page .cta h2 {
+    color: #ffffff; /* blanco, para máximo contraste */
+    font-weight: bold;
+}
+
+
+
+.trip-descriptions {
+    position: relative;
+    width: 840px;
+    margin: 60px auto;
+    padding-bottom: 600px; /* Aumentado para que no solape con la tabla */
+}
+
+.trip-descriptions .trip {
+    width: 260px;
+    background-color: var(--secondary-color);
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid var(--accent1-color);
+    border-radius: 8px;
+    position: absolute;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.trip-descriptions .trip:nth-child(1) {
+    top: 0;
+    left: 0;
+}
+.trip-descriptions .trip:nth-child(2) {
+    top: 220px;
+    left: 290px;
+}
+.trip-descriptions .trip:nth-child(3) {
+    top: 440px;
+    left: 580px;
+}
+
+.trip-descriptions img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.trip-descriptions h3 {
+    margin-top: 10px;
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.trip-descriptions p {
+    font-size: 16px;
+    color: var(--accent1-color);
+}
+
+/* ------- Tabla de trips -------- */
+
+.trip-table {
+    width: 840px;
+    margin: 220px auto 10px auto;
+    background-color: #7dcc95;
+    border-collapse: collapse;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.trip-table h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+    font-size: 1.8rem;
+}
+
+.trip-table table {
+    width: 100%;
+    border: 1px solid var(--accent1-color);
+}
+
+.trip-table th,
+.trip-table td {
+    padding: 12px;
+    border: 1px solid var(--accent1-color);
+    text-align: center;
+    font-size: 16px;
+    background-color: #fdfdfd;
+}
+
+.trip-table th {
+    background-color: var(--accent1-color);
+    color: white;
+}
 
